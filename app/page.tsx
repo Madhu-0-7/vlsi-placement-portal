@@ -21,7 +21,7 @@ async function getJobs(): Promise<Job[]> {
       source: "Indeed API",
       postedDate: "2026-06-10",
       postedTime: "14:30 IST",
-      applyLink: "#"
+      applyLink: "https://www.indeed.com/" 
     },
     {
       id: "2",
@@ -30,7 +30,7 @@ async function getJobs(): Promise<Job[]> {
       source: "Tessolve Careers Portal",
       postedDate: "2026-06-11",
       postedTime: "09:15 IST",
-      applyLink: "#"
+      applyLink: "https://www.tessolve.com/careers/" 
     }
   ];
 }
