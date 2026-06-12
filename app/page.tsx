@@ -20,7 +20,7 @@ async function getJobs(): Promise<Job[]> {
     method: 'GET',
     headers: {
       // Your specific API key from the screenshot
-      'x-rapidapi-key': '88dab283camsh5ca12eb2d821350p179fd1jsn88a09a131176',
+      'x-rapidapi-key': process.env.RAPIDAPI_KEY as string,
       'x-rapidapi-host': 'jsearch.p.rapidapi.com'
     }
   };
